@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="font-awsome/css/font-awesome.css">
+	<link rel="stylesheet" href="font-awsome/css/font-awesome.min.css">
+    <link rel="icon" href="img/2-removebg-preview.png">
+    <title>Исматджонов Бахтовар | Frontend Developer</title>
+</head>
+<body bgcolor="#18052e">
+
+<header>
+    <div class="logo"><h1><font color="red">I</font>BB<font color="red">.</font></h1></div>
+        <input type="checkbox" id="toggle">
+        <label for="toggle"><i class="fa fa-reorder"><img src="img/reorder-four-svgrepo-com.svg" alt="" width="30px"></i></label>
+    <div class="menu2">
+        <ul class="list">
+            <li><a href='/'>Главная</a></li>
+            <li><a href="#about">Обо Мне</a></li>
+            <li><a href="#service">Услуги</a></li>
+            <li><a href="#company">Команда</a></li>
+            <li><a href="#blog">Блог</a></li>
+            <a href="#contact"><button class="btn_contact">Контакт</button></a>
+        </ul>
+    </div>  
+</header>
+<div class="bg-meed_blue">
+    <section id="section_1">
+        <div class="container" id="about">
+            <div class="row">
+                <div class="col-md-5 col-xs-12 col-sm-6">
+                    <div class="profile_photo" title='Фотография'>
+                        <img src="img/me2.png" alt="" width="100%" class="me">
+                    </div>
+                </div>
+                <div class="col-md-7 col-xs-12 col-sm-6">
+                    <h4>Обнаружить</h4>
+                    <h2>Обо мне</h2>
+                    <div style="border-bottom: 1px solid red; width: 15%;"></div>
+                    <p>Меня зовут Исматжонов Бахтовар. Мне <a id="date" style="text-decoration: none; color: #fff;"></a> лет. Я Frontend-разработчик в Худжанде, Таджикистан, и я много публикую сайты в Интернете, и сейчас я изучаю бэкэнд, чтобы стать Full Stack Developer. Разработчик Full Stack — это тот, кто заботится как об интересах пользователя, так и о сервере. Я начал программировать в 17 лет. Конечно, поначалу было сложно, но после постоянной практики я начал быстро осваивать Frontend Development.</p>
+                    <div class="card">
+                        <div class="">
+                            <h3><b>Имя:</b> Бахтовар</h3>
+                            <h3 title="Не хочу показать свой номер"><b>Телефон:</b> +992 93 ### ## ##</h3>
+                            <h3><b>Опыт:</b> <a id="date3" style="color: gray; text-decoration: none;"></a> Года</h3>
+                            <h3><b>Skype:</b> ismatjonov.bakhtovar</h3>
+                        </div>
+                        <div class="">
+                            <h3><b>Возраст:</b> <a id="date2" style="color: gray; text-decoration: none;"></a> </h3>
+                            <h3><b>Фриланс:</b> Доступен</h3>
+                            <h3><b>Адрес:</b> Худжанд, Таджикистан</h3>
+                            <h3><b>Иностранные языки:</b> АНГ, РУС</h3>
+                        </div>
+                    </div>
+                    <!-- <a href="resume.docx" rel="noopener noreferrer"><button class="btn_cv">Скачать резюме</button></a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="bg-ather_blue">
+    <section id="section_2" class="reveal">
+        <div class="container" id="service">
+            <h4>Что Я Делаю</h4>
+            <h2>Мои Услуги</h2>
+            <div style="border-bottom: 1px solid red; width: 20%;"></div>
+            <div class="row">
+                <div class="col-md-4 col-xs-12 col-sm-6">
+                    <div class="box">
+                        <i class="fa fa-pencil"></i>
+                        <h3>Креативный дизайн</h3>
+                        <p>Сама компания очень успешная. Причина ошибки от боли, ослепленной свободной болью, результат восхвалений архитектора, готовящего дело для всех, кто заслуживает легкой доли правды из-за коррумпированных времен?</p>
+                        <a href='Services/index.html' rel='noopener noreferrer' target='_blank'><button class="btn_more">Узнать больше</button></a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-6">
+                    <div class="box">
+                        <i class="fa fa-search"></i>
+                        <h3>Брендинг</h3>
+                        <p>Сама компания очень успешная. Причина ошибки от боли, ослепленной свободной болью, результат восхвалений архитектора, готовящего дело для всех, кто заслуживает легкой доли правды из-за коррумпированных времен?</p>
+                        <button class="btn_more" onclick="soon()">Узнать больше</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 col-sm-12">
+                    <div class="box">
+                        <i class="fa fa-globe"></i>
+                        <h3>Веб-сайты</h3>
+                        <p>Сама компания очень успешная. Причина ошибки от боли, ослепленной свободной болью, результат восхвалений архитектора, готовящего дело для всех, кто заслуживает легкой доли правды из-за коррумпированных времен?</p>
+                        <button class="btn_more" onclick="soon()">Узнать больше</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="bg-meed_blue">
+    <nav>
+        <h1>Часто задаваемые вопросы</h1>
+    </nav>
+    <div class="faq_body">
+        <details>
+            <summary><h2>Что такое Frontend-разработчик?</h2><i id="chev1" class="fa fa-chevron-down" :style="transform: rotate(90deg)"  @click="chevron()"></i></summary>
+            <hr>
+            <h3>Создание структуры гипертекстового документа на основе разметки HTML, обычно с использованием таблиц стилей и сценариев на стороне клиента, чтобы элементы дизайна выглядели аналогично макету.</h3>
+        </details>
+        <details>
+            <summary><h2>Чем занимается Frontend-разработчик?</h2><i id="chev" class="fa fa-chevron-down" :style="transform: rotate(90deg)"  @click="chevron()"></i></summary>
+            <hr>
+            <h3>Интерфейсный разработчик отвечает за разработку новых функций, ориентированных на пользователя, определение структуры и дизайна веб-страниц, создание повторно используемого кода, оптимизацию времени загрузки страниц и использование различных языков разметки для создания веб-страниц.</h3>
+        </details>
+        <details>
+            <summary><h2>Что такое Full Stack?</h2><i id="chev" class="fa fa-chevron-down" :style="transform: rotate(90deg)"  @click="chevron()"></i></summary>
+            <hr>
+            <h3>
+                Полная разработка стека — это сквозная разработка приложений. Он включает в себя как интерфейсную часть, так и серверную часть приложения. К внешнему интерфейсу обычно обращается клиент, а серверная часть формирует ядро ​​приложения, в котором применяется вся бизнес-логика.</h3>
+        </details>
+        <details>
+            <summary><h2>JavaScript впереди или сзади?</h2><i id="chev" class="fa fa-chevron-down" :style="transform: rotate(90deg)"  @click="chevron()"></i></summary>
+            <hr>
+            <h3>
+                JavaScript используется как в Back End, так и в Front End Development. JavaScript используется во всем стеке разработки. Правильно: это и фронтенд, и бэкэнд.</h3>
+        </details>
+        <details>
+            <summary><h2>Чем занимается backend-разработчик?</h2><i id="chev" class="fa fa-chevron-down" :style="transform: rotate(90deg)"  @click="chevron()"></i></summary>
+            <hr>
+            <h3>Бэкенд-разработчик — это программист, который создает и поддерживает необходимые механизмы, которые, в свою очередь, обрабатывают данные и выполняют определенные действия на сайтах. Такой разработчик занимается хранением данных, безопасностью, архитектурой и прочими серверными функциями, которые рядовой пользователь не видит.</h3>
+        </details>
+        <details>
+            <summary><h2>Что нужно знать, чтобы стать backend-разработчиком?</h2><i id="chev" class="fa fa-chevron-down" :style="transform: rotate(90deg)"  @click="chevron()"></i></summary>
+            <hr>
+            <h3>Back-end разработчик должен знать, как работает ОС, что такое потоки и параллелизм, понимать сетевые концепции и стандарты POSIX, уметь управлять процессами, памятью, вводом и выводом (I/O).</h3>
+        </details>
+    </div>
+</div>
+
+<div class="bg-after_blue">
+    <section id="section_4" class="reveal2">
+        <div class="container">
+            <h4 id="company">Присоединяйтесь к моей компании</h4>
+            <h2>О компании</h2>
+            <div style="border-bottom: 1px solid red; width: 15%;"></div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="site_box">
+                        <span class="logo_text"><img src="img/netlify-svgrepo-com.svg" alt="" width="55px" height="55px"><h3>Netlify</h3></span>
+                        <h2><a href="https://app.netlify.com/teams/bakhtovar266/overview" target="_blank">Присоединяйтесь к моей команде в Netlify</a></h2>
+                        <h5>Что такое Netlify</h5>
+                        <p>Netlify — компания, занимающаяся удаленными облачными вычислениями, которая предлагает платформу разработки, включающую сборку, развертывание и службы для приложений и динамических сайтов.</p>
+                        <a href="http://app.netlify.com/teams/bakhtovar266/overview" target="_blank" rel="noopener noreferrer"><button class="btn_wade">Вступить</button></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12">
+                    <div class="site_box">
+                        <span class="logo_text"><div class="bg_image"><img src="img/github-svgrepo-com.svg" alt="" width="55px" height="55px" style="margin-top: -4px;"></div><h3>GitHub</h3></span>
+                        <h2><a href="https://www.github.com/Bakhtovar266" target="_blank">Присоединяйтесь к моей команде в GitHub</a></h2>
+                        <h5>Что такое GitHub ?</h5>
+                        <p>GitHub — крупнейший  веб-сервис для размещения ИТ-проектов и их совместной разработки. Веб-сервис, тагже основан на системе  контроля версий Git и разработан на Ruby on Rails и Erlang компанией GitHub.</p>
+                        <a href="http://www.github.com/Bakhtovar266" target="_blank" rel="noopener noreferrer"><button class="btn_wade_sm btn_wade">Вступить</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="bg-meed_blue">
+    <section id="section_5">
+        <div class="container" id="blog">
+            <h4>Проектная работа</h4>
+            <h2>Блог моих проектов</h2>
+            <div style="border-bottom: 1px solid red; width: 20%;"></div>
+            <div class="row">
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="box_froject">
+                        <i class="fa fa-globe"></i>
+                        <h3>Total of<br> sites</h3>
+                        <p>33 Проектов</p>
+                    </div>
+                </div>
+                <a href="http://hamroh.netlify.app" target="_blank" rel="noopener noreferrer"><div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="box_froject">
+                        <i class="fa fa-file"></i>
+                        <h3>One Page <br> Sites</h3>
+                        <p>21 Проектов</p>
+                    </div>
+                </div></a>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="box_froject">
+                        <i class="fa fa-code"></i>
+                        <h3>Multipage <br> Sites</h3>
+                        <p>12 Проектов</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="box_froject">
+                        <i class="fa fa-folder"></i>
+                        <h3>Published <br> Sites</h3>
+                        <p>4 Проектов</p>
+                    </div>
+                </div>
+                <a href='http://bakhtovar.netlify.app/game' rel='noopener noreferrer' target='_blank'><div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="box_froject">
+                        <i class="fa fa-trophy"></i>
+                        <h3>Game <br> Sites</h3>
+                        <p>3 Проектов</p>
+                    </div>
+                </div></a>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="box_froject">
+                        <i class="fa fa-music"></i>
+                        <h3>Music <br> Web-Sites</h3>
+                        <p>2 Проектов</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="box_froject">
+                        <i class="fa fa-shopping-cart"></i>
+                        <h3>Online <br> Store</h3>
+                        <p>1 Проектов</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-xs-12 col-sm-6">
+                    <div class="box_froject">
+                        <i class="fa fa-bolt"></i>
+                        <h3>Powerful <br> Sites</h3>
+                        <p>5 Проектов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="bg-after_blue">
+    <div class="reveal3">
+        <nav>
+            <h1 id="contact">Свяжись со мной</h1>
+        </nav>
+        <section id="section_6">
+            <div class="contact">
+                    <div id="app">
+                        <p>
+                            <input type="text" name="firstname" id="inputName" placeholder="Имя" class="name">
+                            <input type="text" name="lastname" id="inputSurname" placeholder="Фамилия" class="name">
+                        </p>
+                        <p>
+                            <input type="email" name="email" id="inputEmail" placeholder="Электронная почта" class="email">
+                        </p>
+                        <p>
+                            <textarea name="text" id="inputMessage" placeholder="Напешите, что вы думаете" class="text"></textarea>
+                        </p>
+                        <p align="center">
+                            <button class="button type1" onclick="add()"></button>
+                        </p>
+                    </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<div class="bg-meed_blue">
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-xs-12 col-sm-6">
+                    <div class="logo"><h1><font color="red">I</font>BB<font color="red">.</font></h1></div>
+                    <p>&copy Все права защищены <a href='http://bakhtovar.netlify.app/heart/' rel='noopener noreferrer' target='_blank'><font color="red">&hearts;</font></a> Исматджонов Бахтовар</p>
+                </div>
+                <div class="col-md-6 col-xs-12 col-sm-6">
+                    <h1 class="text_footer">Найди меня в социальных сетях</h1>
+                    <div class="btn_social">
+                        <div class="bg-footer">
+                            <a onclick="alert('Звонки еще не принимаются. Попробуйте другой вариан!')">
+                                <i title="Phome"><img src="img/phone-svgrepo-com.svg" alt=""></i>
+                            </a>
+                        </div>
+                        <div class="bg-footer">
+                            <a href="https://www.instagram.com/@ismatjonov_" target="_blank" rel="noopener noreferrer">
+                                <i title="Instagram"><img src="img/instagram-1-svgrepo-com.svg" alt=""></i>
+                            </a>
+                        </div>
+                        <div class="bg-footer">
+                            <a onclick="alert('Звонки через Whatsapp еще не принимаются. Попробуйте другой вариан!')" target="_blank" rel="noopener noreferrer">
+                                <i title="Whatsapp"><img src="img/whatsapp-svgrepo-com.svg" alt=""></i>
+                            </a>
+                        </div>
+                        <div class="bg-footer">
+                            <a href="http://t.me/ismatjonov" target="_blank" rel="noopener noreferrer">
+                                <i title="Telegram"><img src="img/telegram-svgrepo-com.svg"></i>
+                            </a>
+                        </div>
+                        <div class="bg-footer">
+                            <a href="http://www.github.com/bakhtovar266" target="_blank" rel="noopener noreferrer"> 
+                                <i title="GitHub"><img src="img/github-svgrepo-com.svg"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<style>
+    /* From Uiverse.io by Gaurav-WebDev */ 
+.button {
+  height: 60px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+.type1::after {
+  content: "Thanks";
+  height: 60px;
+  width: 250px;
+  background-color: #cf3939;
+  color: #fff;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateY(60px);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.type1::before {
+  content: "Send";
+  height: 60px;
+  width: 250px;
+  background-color: #fff;
+  color: #cf3939;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translateY(0px) scale(1.2);
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.type1:hover::after {
+  transform: translateY(0) scale(1.2);
+}
+
+.type1:hover::before {
+  transform: translateY(-60px) scale(0) rotate(120deg);
+}
+</style>
+
+<script>
+    function reveal() {
+        let reveals = document.querySelectorAll('.reveal');
+
+        reveals.forEach((reveal) =>{
+            let windowHeight = window.innerHeight
+            let elementTop = reveal.getBoundingClientRect().top
+            let elementVisible = 200
+
+            if(elementTop < windowHeight - elementVisible) {
+                reveal.classList.add("active")
+            } else {
+                reveal.classList.remove('active')
+            }
+        })
+    }
+
+    window.addEventListener("scroll", reveal)
+
+    function reveal2() {
+        let reveals2 = document.querySelectorAll('.reveal2');
+
+        reveals2.forEach((reveal2) =>{
+            let windowHeight = window.innerHeight
+            let elementTop = reveal2.getBoundingClientRect().top
+            let elementVisible = 50
+
+            if(elementTop < windowHeight - elementVisible) {
+                reveal2.classList.add("active")
+            } else {
+                reveal2.classList.remove('active')
+            }
+        })
+    }
+
+    window.addEventListener("scroll", reveal2)
+
+    function reveal3() {
+        let reveals3 = document.querySelectorAll('.reveal3');
+
+        reveals3.forEach((reveal3) =>{
+            let windowHeight = window.innerHeight
+            let elementTop = reveal3.getBoundingClientRect().top
+            let elementVisible = 50
+
+            if(elementTop < windowHeight - elementVisible) {
+                reveal3.classList.add("active")
+            } else {
+                reveal3.classList.remove('active')
+            }
+        })
+    }
+
+    window.addEventListener("scroll", reveal3)
+
+    let showDate = document.getElementById('date')
+    let today = new Date()
+    let year = today.getFullYear();
+    showDate.innerHTML = year - 2006
+
+    let showDate2 = document.getElementById('date2')
+    let today2 = new Date()
+    let year2 = today.getFullYear();
+    showDate2.innerHTML = year2 - 2006
+
+    let showDate3 = document.getElementById('date3')
+    let today3 = new Date()
+    let year3 = today.getFullYear();
+    showDate3.innerHTML = year3 - 2006 - 17
+
+    function add() {
+        alert("Спосибо, что оставили отзыв❤️")
+    }
+
+    function soon() {
+        alert("Это страница скоро будет готово!")
+    }
+</script>
+
+
+</body>
+</html>
