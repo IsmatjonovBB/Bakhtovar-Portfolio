@@ -20,4 +20,4 @@
 
 1. Склонируйте репозиторий на свой компьютер:
    ```bash
-   git clone https://github.com/ваш-аккаунт/ваш-репозиторий.git
+   git clone https://github.com/IsmatjonovBB/Bakhtovar-Portfolio.git
